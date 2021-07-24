@@ -1,0 +1,19 @@
+/* Full-width inputs */
+.a{
+  margin-left: -10px;
+  border-radius: 12px;
+  
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  width: 20%;
+  text-align: center;
+}
+
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+
