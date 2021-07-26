@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crops</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+</head>
+<body class="body_class" style="background-color:lightblue;">
+
+    <h1 style="color: darkgreen; text-align: center;">Crop Recommendation</h1>
+    <div class="container" style="align-content: center;">
+
+    <form action="{{url_for('predict')}}" method="post" class="login">
+        
+    <label style="color: #000;">Ratio of Nitrogen content in soil</label>
+    <input class="a" type="number" name="nitrogen" step="any" required="required">
+    <br>
+
+    <label style="color: #000;">Ratio of Phosphorous content in soil</label>
+    <input type="number" class="a" name="phosphrous" step="any" required="required">
+    <br>
+
+    <label style="color: #000;">Ratio of Potassium content in soil</label>
+    <input type="number" class="a" name="potassium" step="any" required="required">
+    <br>
+
+    <label style="color: #000;">Temperature in degree Celsius</label>
+    <input type="number" class="a" name="temperature" step="any" required="required">
+    <br>
+
+    <label style="color: #000;">Relative humidity in %</label>
+    <input type="number" class="a" name="humidity" step="any" required="required">
+    <br>
+
+    <label style="color: #000;">Ph value of the soil</label>
+    <input type="number" class="a" name="ph_value" step="any" required="required">
+    <br>
+   
+    <label style="color: #000;">Rainfall in mm</label>
+    <input type="number" class="a" name="rainfall" step="any" required="required">
+    <br>
+
+    <div>
+    <button type="submit" style="padding: 8px 28px;width: 10%;">Result</button>
+    </div>
+  </form>
+</div>
+<br>
+<br>
+<div style="text-align:center; color: rgb(8, 10, 7);"><b>{{ prediction_text }}</b></div>
+<br>
+</body>
+</html>

@@ -1,0 +1,69 @@
+/* Full-width inputs */
+.a{
+  margin-left: -10px;
+  border-radius: 12px;
+  
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  width: 20%;
+  text-align: center;
+}
+
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+  overflow: hidden;
+  text-align: center;
+}
+
+label {
+	float: left;
+  text-align: center;
+	padding: 14px;
+  	width:100%;
+  	color: #FFF;
+}
+
+/* Full-width inputs */
+/* .a{
+  margin-left: -10px;
+ border-radius: 12px;
+  
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  width: 20%;
+  text-align: center;
+} */
+
+/* Set a style for all buttons */
+button {
+  background-color: #1f1919;
+  color:#e4e0ec;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 12px;
+  
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+
